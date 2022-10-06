@@ -1,0 +1,555 @@
+{
+
+    "version": "0.0.1",
+  
+    "generated": "2020-11-14",
+  
+    "resolution": {
+  
+        "x": 320,
+  
+        "y": 256
+  
+    },
+  
+    "depth": 3,
+  
+    "width": 3,
+  
+    "layers": [
+  
+      {
+  
+        "name": "Grey stone floor",
+  
+        "type": "Floor",
+  
+        "tiles": [
+  
+          {
+  
+            "type": "floor",
+  
+            "flipped": false,
+  
+            "tile": {
+  
+              "x": -1,
+  
+              "z": -1
+  
+            },
+  
+            "screen": {
+  
+              "x": 0,
+  
+              "y": 132
+  
+            },
+  
+            "coords": {
+  
+              "x": 16,
+  
+              "y": 0,
+  
+              "w": 320,
+  
+              "h": 124,
+  
+              "fullWidth": 320
+  
+            }
+  
+          }
+  
+        ]
+  
+      },
+  
+      {
+  
+        "name": "Grey stone ceiling",
+  
+        "type": "Ceiling",
+  
+        "tiles": [
+  
+          {
+  
+            "type": "ceiling",
+  
+            "flipped": false,
+  
+            "tile": {
+  
+              "x": -1,
+  
+              "z": -1
+  
+            },
+  
+            "screen": {
+  
+              "x": 0,
+  
+              "y": 1
+  
+            },
+  
+            "coords": {
+  
+              "x": 0,
+  
+              "y": 142,
+  
+              "w": 320,
+  
+              "h": 77,
+  
+              "fullWidth": 320
+  
+            }
+  
+          }
+  
+        ]
+  
+      },
+  
+      {
+  
+        "name": "Grey stone walls",
+  
+        "type": "Walls",
+  
+        "tiles": [
+  
+          {
+  
+            "type": "front",
+  
+            "flipped": false,
+  
+            "tile": {
+  
+              "x": 0,
+  
+              "z": -1
+  
+            },
+  
+            "screen": {
+  
+              "x": 30,
+  
+              "y": 15
+  
+            },
+  
+            "coords": {
+  
+              "x": 0,
+  
+              "y": 221,
+  
+              "w": 260,
+  
+              "h": 202,
+  
+              "fullWidth": 260
+  
+            }
+  
+          },
+  
+          {
+  
+            "type": "front",
+  
+            "flipped": false,
+  
+            "tile": {
+  
+              "x": 0,
+  
+              "z": -2
+  
+            },
+  
+            "screen": {
+  
+              "x": 106,
+  
+              "y": 65
+  
+            },
+  
+            "coords": {
+  
+              "x": 338,
+  
+              "y": 0,
+  
+              "w": 108,
+  
+              "h": 84,
+  
+              "fullWidth": 108
+  
+            }
+  
+          },
+  
+          {
+  
+            "type": "front",
+  
+            "flipped": false,
+  
+            "tile": {
+  
+              "x": 0,
+  
+              "z": -3
+  
+            },
+  
+            "screen": {
+  
+              "x": 126,
+  
+              "y": 79
+  
+            },
+  
+            "coords": {
+  
+              "x": 262,
+  
+              "y": 221,
+  
+              "w": 68,
+  
+              "h": 52,
+  
+              "fullWidth": 68
+  
+            }
+  
+          },
+  
+          {
+  
+            "type": "side",
+  
+            "flipped": false,
+  
+            "tile": {
+  
+              "x": -1,
+  
+              "z": 0
+  
+            },
+  
+            "screen": {
+  
+              "x": 0,
+  
+              "y": 1
+  
+            },
+  
+            "coords": {
+  
+              "x": 338,
+  
+              "y": 86,
+  
+              "w": 30,
+  
+              "h": 243,
+  
+              "fullWidth": 30
+  
+            }
+  
+          },
+  
+          {
+  
+            "type": "side",
+  
+            "flipped": true,
+  
+            "tile": {
+  
+              "x": 1,
+  
+              "z": 0
+  
+            },
+  
+            "screen": {
+  
+              "x": 320,
+  
+              "y": 1
+  
+            },
+  
+            "coords": {
+  
+              "x": 338,
+  
+              "y": 86,
+  
+              "w": 30,
+  
+              "h": 243,
+  
+              "fullWidth": 2
+  
+            }
+  
+          },
+  
+          {
+  
+            "type": "side",
+  
+            "flipped": false,
+  
+            "tile": {
+  
+              "x": -1,
+  
+              "z": -1
+  
+            },
+  
+            "screen": {
+  
+              "x": 30,
+  
+              "y": 16
+  
+            },
+  
+            "coords": {
+  
+              "x": 370,
+  
+              "y": 86,
+  
+              "w": 76,
+  
+              "h": 199,
+  
+              "fullWidth": 76
+  
+            }
+  
+          },
+  
+          {
+  
+            "type": "side",
+  
+            "flipped": true,
+  
+            "tile": {
+  
+              "x": 1,
+  
+              "z": -1
+  
+            },
+  
+            "screen": {
+  
+              "x": 290,
+  
+              "y": 16
+  
+            },
+  
+            "coords": {
+  
+              "x": 370,
+  
+              "y": 86,
+  
+              "w": 76,
+  
+              "h": 199,
+  
+              "fullWidth": 2
+  
+            }
+  
+          },
+  
+          {
+  
+            "type": "side",
+  
+            "flipped": false,
+  
+            "tile": {
+  
+              "x": -1,
+  
+              "z": -2
+  
+            },
+  
+            "screen": {
+  
+              "x": 106,
+  
+              "y": 66
+  
+            },
+  
+            "coords": {
+  
+              "x": 262,
+  
+              "y": 275,
+  
+              "w": 20,
+  
+              "h": 82,
+  
+              "fullWidth": 20
+  
+            }
+  
+          },
+  
+          {
+  
+            "type": "side",
+  
+            "flipped": true,
+  
+            "tile": {
+  
+              "x": 1,
+  
+              "z": -2
+  
+            },
+  
+            "screen": {
+  
+              "x": 214,
+  
+              "y": 66
+  
+            },
+  
+            "coords": {
+  
+              "x": 262,
+  
+              "y": 275,
+  
+              "w": 20,
+  
+              "h": 82,
+  
+              "fullWidth": 2
+  
+            }
+  
+          },
+  
+          {
+  
+            "type": "side",
+  
+            "flipped": false,
+  
+            "tile": {
+  
+              "x": -2,
+  
+              "z": -2
+  
+            },
+  
+            "screen": {
+  
+              "x": 0,
+  
+              "y": 66
+  
+            },
+  
+            "coords": {
+  
+              "x": 338,
+  
+              "y": 331,
+  
+              "w": 58,
+  
+              "h": 81,
+  
+              "fullWidth": 58
+  
+            }
+  
+          },
+  
+          {
+  
+            "type": "side",
+  
+            "flipped": true,
+  
+            "tile": {
+  
+              "x": 2,
+  
+              "z": -2
+  
+            },
+  
+            "screen": {
+  
+              "x": 320,
+  
+              "y": 66
+  
+            },
+  
+            "coords": {
+  
+              "x": 338,
+  
+              "y": 331,
+  
+              "w": 58,
+  
+              "h": 81,
+  
+              "fullWidth": 2
+  
+            }
+  
+          }
+  
+        ]
+  
+      }
+  
+    ]
+  
+  }
+  
+  
