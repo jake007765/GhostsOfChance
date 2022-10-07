@@ -2,16 +2,21 @@ package Pandemonium;
 
 import java.util.ArrayList;
 
-class Demon {
+public class Demon implements Comparable<Demon>{
 
     protected int mesh;
     protected String name;
-    protected int[] stats;
+    protected String title;
+    protected double pitch;
 
 
-    Demon(int mesh, String name) {
+    protected ArrayList<Integer> stats;
+
+
+    Demon(int mesh, String name, String title) {
         this.mesh = mesh;
         this.name = name;
+        this.title = title;
         ArrayList<Integer> stats = new ArrayList<Integer>();
     }
 
@@ -22,6 +27,13 @@ class Demon {
         
         return "Mesh: " + mesh + " " + name + "\n" + stats
         ;
+    }
+
+
+
+    @Override
+    public int compareTo(Demon o) {
+        return this.mesh - o.mesh;
     }
 }
 
