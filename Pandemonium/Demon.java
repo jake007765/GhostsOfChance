@@ -1,20 +1,27 @@
 package Pandemonium;
 
+import java.util.ArrayList;
+
 class Demon {
 
-    private int mesh;
-    private String name;
+    protected int mesh;
+    protected String name;
+    protected int[] stats;
 
 
     Demon(int mesh, String name) {
         this.mesh = mesh;
         this.name = name;
+        ArrayList<Integer> stats = new ArrayList<Integer>();
     }
+
+
 
     @Override
     public String toString() {
         
-        return mesh + name;
+        return "Mesh: " + mesh + " " + name + "\n" + stats
+        ;
     }
 }
 
